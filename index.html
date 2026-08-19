@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mahjong Ways di SultanLulu Tema, Visual dan Fitur Permainan</title>
+
+  <meta name="description" content="Temukan pembahasan Mahjong Ways di SultanLulu, mulai dari tema mahjong, desain visual, simbol permainan, hingga fitur yang membentuk karakter permainannya.">
+
+  <meta name="author" content="SULTANLULU">
+
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+<meta name="google-site-verification" content="TaozWG2ENnBgpW5XyJbcknDyWdN5_t5e0T0zmX1O7nk" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://evos-sultanlulu.github.io/">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://evos-sultanlulu.github.io/assets/favicon.png" type="image/png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+
+  <meta property="og:title" content="Mahjong Ways di SultanLulu Tema, Visual dan Fitur Permainan">
+
+  <meta property="og:description" content="Temukan pembahasan Mahjong Ways di SultanLulu, mulai dari tema mahjong, desain visual, simbol permainan, hingga fitur yang membentuk karakter permainannya.">
+
+  <meta property="og:url" content="https://evos-sultanlulu.github.io/">
+
+  <meta property="og:image" content="https://evos-sultanlulu.github.com/assets/menang.jpg">
+
+  <meta property="og:site_name" content="SULTANLULU">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="twitter:title" content="Mahjong Ways di SultanLulu Tema, Visual dan Fitur Permainan">
+
+  <meta name="twitter:description" content="Temukan pembahasan Mahjong Ways di SultanLulu, mulai dari tema mahjong, desain visual, simbol permainan, hingga fitur yang membentuk karakter permainannya.">
+
+  <meta name="twitter:image" content="https://evos-sultanlulu.github.com/assets/menang.jpg">
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "SULTANLULU",
+    "url": "https://evos-sultanlulu.github.io/",
+    "description": "Temukan pembahasan Mahjong Ways di SultanLulu, mulai dari tema mahjong, desain visual, simbol permainan, hingga fitur yang membentuk karakter permainannya.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "SULTANLULU",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://evos-sultanlulu.github.io/assets/sultan.gif"
+      }
+    }
+  }
+  </script>
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+
+      background:
+        radial-gradient(
+          circle at top,
+          #202020 0%,
+          #101010 42%,
+          #070707 100%
+        );
+
+      color: #f5f5f5;
+
+      line-height: 1.7;
+
+      min-height: 100vh;
+
+      padding-bottom: 105px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .page {
+      width: min(100% - 30px, 820px);
+
+      margin: 0 auto;
+
+      padding: 42px 0 50px;
+    }
+
+
+    /* =========================
+       HEADER / LOGO
+    ========================== */
+
+    .header {
+      text-align: center;
+
+      margin-bottom: 25px;
+    }
+
+    .logo-wrap {
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      margin-bottom: 22px;
+    }
+
+    .logo {
+      width: auto;
+
+      max-width: 270px;
+
+      max-height: 110px;
+
+      object-fit: contain;
+    }
+
+    .main-title {
+      font-size: clamp(28px, 6vw, 46px);
+
+      line-height: 1.15;
+
+      font-weight: 800;
+
+      letter-spacing: -1px;
+
+      color: #ffffff;
+
+      margin-bottom: 14px;
+    }
+
+    .main-title span {
+      color: #f6c453;
+    }
+
+    .description {
+      max-width: 680px;
+
+      margin: 0 auto;
+
+      color: #bdbdbd;
+
+      font-size: 15px;
+
+      line-height: 1.75;
+    }
+
+
+    /* =========================
+       IMAGE / UKURAN BEBAS
+    ========================== */
+
+    .hero-image-wrap {
+      position: relative;
+
+      margin-top: 30px;
+
+      border-radius: 18px;
+
+      overflow: hidden;
+
+      padding: 1px;
+
+      background: linear-gradient(
+        135deg,
+        rgba(246,196,83,.75),
+        rgba(255,255,255,.08),
+        rgba(246,196,83,.25)
+      );
+
+      box-shadow: 0 20px 60px rgba(0,0,0,.35);
+    }
+
+    /*
+      Foto sekarang mengikuti rasio asli file.
+      Bisa portrait, landscape, 1:1, 4:5, 16:9, dll.
+    */
+
+    .hero-image {
+      width: 100%;
+
+      height: auto;
+
+      object-fit: contain;
+
+      border-radius: 17px;
+
+      background: #181818;
+    }
+
+
+    /* =========================
+       ARTICLE
+    ========================== */
+
+    .article {
+      margin-top: 32px;
+
+      padding: 30px;
+
+      background: rgba(255,255,255,.035);
+
+      border: 1px solid rgba(255,255,255,.08);
+
+      border-radius: 18px;
+
+      box-shadow: 0 18px 50px rgba(0,0,0,.18);
+    }
+
+    .article h2 {
+      font-size: 25px;
+
+      line-height: 1.35;
+
+      margin-bottom: 17px;
+
+      color: #ffffff;
+    }
+
+    .article h2 span {
+      color: #f6c453;
+    }
+
+    .article p {
+      font-size: 15px;
+
+      color: #c8c8c8;
+
+      margin-bottom: 16px;
+
+      text-align: left;
+    }
+
+    .article p:last-child {
+      margin-bottom: 0;
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================== */
+
+    footer {
+      margin-top: 30px;
+
+      text-align: center;
+
+      font-size: 13px;
+
+      color: #777;
+    }
+
+
+    /* =========================
+       FLOATING BUTTON
+    ========================== */
+
+    .floating-buttons {
+      position: fixed;
+
+      bottom: 0;
+
+      left: 0;
+
+      width: 100%;
+
+      z-index: 9999;
+
+      display: flex;
+
+      justify-content: center;
+
+      gap: 10px;
+
+      padding:
+        11px
+        max(14px, calc((100vw - 820px) / 2))
+        calc(11px + env(safe-area-inset-bottom));
+
+      background:
+        linear-gradient(
+          180deg,
+          rgba(7,7,7,0) 0%,
+          rgba(7,7,7,.94) 35%,
+          #070707 100%
+        );
+    }
+
+    .floating-btn {
+      position: relative;
+
+      overflow: hidden;
+
+      flex: 1;
+
+      max-width: 395px;
+
+      padding: 14px 16px;
+
+      border-radius: 12px;
+
+      font-size: 14px;
+
+      font-weight: 800;
+
+      text-align: center;
+
+      letter-spacing: .3px;
+
+      transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(
+        135deg,
+        #f6c453,
+        #d89b21
+      );
+
+      color: #111111;
+
+      box-shadow:
+        0 7px 25px rgba(246,196,83,.18);
+    }
+
+    .btn-secondary {
+      background: linear-gradient(
+        135deg,
+        #222222,
+        #101010
+      );
+
+      color: #f6c453;
+
+      border: 1px solid rgba(246,196,83,.55);
+
+      box-shadow:
+        0 7px 25px rgba(0,0,0,.30);
+    }
+
+    .floating-btn:hover {
+      transform: translateY(-2px);
+    }
+
+
+    /* Kilatan Cahaya */
+
+    .floating-btn::before {
+      content: "";
+
+      position: absolute;
+
+      top: -80%;
+
+      left: -70%;
+
+      width: 40%;
+
+      height: 260%;
+
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.75),
+        transparent
+      );
+
+      transform: rotate(25deg);
+
+      animation: shine 2.8s infinite;
+    }
+
+    @keyframes shine {
+
+      0% {
+        left: -80%;
+      }
+
+      40% {
+        left: 140%;
+      }
+
+      100% {
+        left: 140%;
+      }
+
+    }
+
+
+    /* =========================
+       MOBILE
+    ========================== */
+
+    @media (max-width: 600px) {
+
+      body {
+        padding-bottom: 100px;
+      }
+
+      .page {
+        width: calc(100% - 24px);
+
+        padding-top: 30px;
+      }
+
+      .logo {
+        max-width: 230px;
+
+        max-height: 95px;
+      }
+
+      .main-title {
+        font-size: 30px;
+      }
+
+      .description {
+        font-size: 14px;
+      }
+
+      .hero-image-wrap {
+        margin-top: 25px;
+
+        border-radius: 15px;
+      }
+
+      .hero-image {
+        width: 100%;
+
+        height: auto;
+
+        object-fit: contain;
+
+        border-radius: 14px;
+      }
+
+      .article {
+        padding: 22px 19px;
+
+        border-radius: 15px;
+      }
+
+      .article h2 {
+        font-size: 21px;
+      }
+
+      .article p {
+        font-size: 14px;
+
+        line-height: 1.8;
+      }
+
+      .floating-buttons {
+        gap: 8px;
+
+        padding:
+          10px
+          10px
+          calc(10px + env(safe-area-inset-bottom));
+      }
+
+      .floating-btn {
+        padding: 13px 8px;
+
+        font-size: 12.5px;
+
+        border-radius: 10px;
+      }
+
+    }
+
+
+    /* Kurangi animasi untuk user yang memilih reduced motion */
+
+    @media (prefers-reduced-motion: reduce) {
+
+      .floating-btn::before {
+        animation: none;
+      }
+
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+  <main class="page">
+
+
+    <!-- =====================
+         LOGO
+    ====================== -->
+
+    <header class="header">
+
+      <div class="logo-wrap">
+
+        <img
+          src="https://evos-sultanlulu.github.io/assets/sultan.gif"
+          alt="SultanLulu"
+          class="logo"
+          width="270"
+          height="100"
+        >
+
+      </div>
+
+
+     <!-- TITLE --> <h1 class="main-title"> <span>SULTANLULU</span> Mengulas Karakter Mahjong Ways </h1> <!-- DESKRIPSI --> <p class="description"> Jelajahi karakter Mahjong Ways bersama SULTANLULU melalui pembahasan mengenai tema, simbol, desain visual, animasi, serta berbagai elemen yang membuat permainan ini memiliki tampilan khas dan mudah dikenali. </p>
+
+    </header>
+
+
+    <!-- =====================
+         FOTO / BANNER
+         UKURAN BEBAS
+    ====================== -->
+
+    <figure class="hero-image-wrap">
+
+      <img
+        src="https://evos-sultanlulu.github.com/assets/menang.jpg"
+        alt="Informasi terbaru SULTANLULU"
+        class="hero-image"
+        loading="eager"
+        fetchpriority="high"
+      >
+
+    </figure>
+
+
+    <!-- =====================
+         ARTIKEL 200+ KATA
+    ====================== -->
+
+    <article class="content-article"> <h2>Karakter Visual Mahjong Ways di SultanLulu</h2> <p> <strong>Mahjong Ways</strong> memiliki karakter permainan yang mudah dikenali berkat penggunaan elemen visual yang terinspirasi dari permainan mahjong tradisional. Melalui <strong>SultanLulu</strong>, pengguna dapat mengenal lebih jauh berbagai unsur yang membentuk identitas permainan ini, mulai dari simbol, tata letak, hingga animasi yang tampil selama permainan. </p> <p> Desain Mahjong Ways memadukan nuansa klasik dengan tampilan digital yang lebih modern. Berbagai simbol bergaya ubin mahjong digunakan sebagai bagian utama dari visual permainan, kemudian dilengkapi efek animasi dan perubahan tampilan yang membuat setiap sesi terasa lebih dinamis. </p> <h2>Tema Mahjong yang Dibawa ke Format Digital</h2> <p> Salah satu hal yang membuat Mahjong Ways menarik untuk dibahas adalah bagaimana elemen permainan tradisional diterjemahkan ke dalam format <strong>game online</strong>. Warna, simbol, dan detail visualnya tetap mempertahankan identitas bertema mahjong sekaligus menyesuaikannya dengan pengalaman permainan digital masa kini. </p> <p> <strong>SultanLulu</strong> menghadirkan pembahasan tersebut secara terstruktur sehingga pengguna dapat memahami karakter Mahjong Ways tanpa harus melihatnya hanya dari sisi nama permainan. Informasi mengenai visual, fitur, dan mekanisme dasarnya membantu memberikan gambaran yang lebih lengkap mengenai permainan ini. </p> <h2>Mahjong Ways sebagai Bagian dari Konten SultanLulu</h2> <p> Dengan membahas aspek yang lebih spesifik, SultanLulu terus memperluas informasi seputar Mahjong Ways dan berbagai game online lainnya. Setiap pembahasan dibuat dengan fokus berbeda agar pengguna memperoleh informasi yang lebih relevan sesuai topik yang sedang mereka cari. </p> </article>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+      © 2026 SULTANLULU. Semua Hak Dilindungi.
+
+    </footer>
+
+
+  </main>
+
+
+  <!-- ============================
+       FLOATING BUTTON
+       GANTI URL DI SINI
+  ============================= -->
+
+  <nav
+    class="floating-buttons"
+    aria-label="Navigasi utama"
+  >
+
+    <a
+      href="https://goolink.id/sultanlulu-pwa"
+      class="floating-btn btn-primary"
+      aria-label="Akses SULTANLULU"
+    >
+      LOGIN / DAFTAR
+    </a>
+
+
+    <a
+      href="https://gatottech.io/install-apk-lulu-2"
+      class="floating-btn btn-secondary"
+      aria-label="Informasi SULTANLULU"
+    >
+      DOWNLOAD APK
+    </a>
+
+  </nav>
+
+
+</body>
+</html>
